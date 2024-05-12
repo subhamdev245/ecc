@@ -15,6 +15,11 @@ const ProductInfo = (props) => {
         <div className="h-4    mb-2 ">{data.price}</div>
         <div className="h-4    mb-2  ">{data.category}</div>
       </div>
+      <div className='flex justify-center align-middle'>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full shadow-lg animate-fade-in">
+        ADD +
+      </button>
+      </div>
     </div>
   )
 }

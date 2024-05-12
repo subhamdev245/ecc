@@ -9,6 +9,7 @@ import About from '../pages/About'
 import App from './App'
 import Product from '../pages/Product'
 import HomePage from '../pages/HomePage'
+import ProductDemo from '../pages/ProductDemo'
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/product",
         element: <Product />
+      },
+      {
+        path: "/:res",
+        element: <ProductDemo />
       }
 
     ],

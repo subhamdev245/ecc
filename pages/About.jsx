@@ -30,9 +30,7 @@ const About = () => {
             />
           </div>
           <div>
-            <p className="text-lg mb-4">
-              Hello! I'm {userData.name}, a passionate {userData.bio || 'developer'} based in {userData.location || 'somewhere on Earth'}.
-            </p>
+            
             <p className="text-lg">
               I love to {userData.bio ? userData.bio : 'write code and build cool projects'}.
             </p>
