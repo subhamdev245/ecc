@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ProductInfo from '../comp/ProductInfo';
 import ProductShimmer from '../comp/ProductShimmer';
 import { productapi } from '../utils/const'
+import { useDispatch } from 'react-redux';
 // import UseApi from '../utils/UseApi';
 
 
